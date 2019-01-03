@@ -1,0 +1,48 @@
+.search {
+  width: 690rpx;
+  height: 72rpx;
+  margin: 20rpx auto 30rpx auto;
+  background: #f7f7f7;
+  text-align: center;
+  border-radius: 16rpx; 
+}
+.search-text {
+  color: #ccc;
+  font-size: 28rpx;
+}
+
+.search-detail {
+  height: 1080rpx;
+  background: #f7f7f7;
+}
+.search-item {
+  padding: 30rpx;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.book-iamge {
+  flex: 0 0 180rpx;
+  height: 236rpx;
+  background: #fff;
+  box-shadow: 0 2rpx 16rpx rgba(0, 0, 0, 0.1)
+}
+.book-content {
+  margin-left: 30rpx;
+  flex: 1;
+}
+.book-title {
+  font-size: 32rpx;
+  line-height: 32rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 14rpx;
+}
+.title-1 {
+  font-size: 20rpx;
+  line-height: 28rpx;
+  color: #999;
+}
+.title-1 text {
+  color: #666;
+}

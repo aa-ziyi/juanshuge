@@ -1,0 +1,23 @@
+<view class='cell booklist-title'>
+  <text class='title'>书单名称</text>
+  <input class='title-input'
+        placeholder='输入书单名称' 
+        placeholder-class='input-none'
+        maxlength='18'
+        bindinput='replaceTitle'
+        >
+  </input>
+</view>
+
+<view class='cell booklist-introduce'>
+  <text class='title'>书单介绍</text>
+  <input class='title-input'
+        placeholder='输入书单介绍' 
+        placeholder-class='input-none'
+        maxlength='200'
+        bindinput='replaceIntroduce'
+        >
+  </input>
+</view>
+
+<button class='submit' bindtap='createBookList'>确认创建</button>

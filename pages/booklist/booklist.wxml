@@ -1,0 +1,36 @@
+<input class="search" 
+      type="text" 
+      placeholder="输入关键词搜索书籍" 
+      placeholder-class="search-text"
+      bindtap='toSearch'
+      disabled="true"
+      />
+
+<view class='booklist-wrapper'>
+
+  <view class='booklist-item' wx:for="{{BookList}}" wx:key="{{item.id}}">
+    <view class='booklist-detail' 
+          data-booklist-id="{{item.id}}" 
+          bindtap='toLlistDetail'
+    >
+      <view class='book-item'></view>
+      <view class='book-item'></view>
+      <view class='book-item'></view>
+      <view class='book-item'></view>
+    </view>
+    
+    <view class='booklist-text'>
+      <view class='title'>{{item.name}}</view>
+      <view class='book-num'>共有10本</view>
+    </view>
+  </view>
+
+  
+  <view class='booklist-item'>
+    <view class='booklist-add' bindtap='createBookList'>
+      <image class='add-image' src='./add.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='well-known-saying'></view>

@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/booklist/booklist",
+    "pages/share/share",
+    "pages/me/me",
+    "pages/search/search",
+    "pages/createBookList/createBookList",
+    "pages/bookListDetail/bookListDetail",
+    "pages/bookDetail/bookDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/booklist/booklist",
+        "text": "书单"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#333"
+  }
+}

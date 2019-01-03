@@ -1,0 +1,42 @@
+.detail-header {
+  padding: 30rpx;
+}
+.list-title {
+  font-size: 32rpx;
+  line-height: 32rpx;
+  font-weight: 500;
+  color: #333;
+}
+.list-introduce {
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 10rpx;
+  color: #333;
+}
+.booklist {
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30rpx;
+}
+.book-item {
+  flex: 0 0 33.3%;
+  margin-bottom: 40rpx;
+}
+.book-image {
+  width: 180rpx;
+  height: 236rpx;
+  margin: 0 auto;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.1);
+}
+.book-title {
+  width: 180rpx;
+  margin: 0 auto;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  margin-top: 20rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

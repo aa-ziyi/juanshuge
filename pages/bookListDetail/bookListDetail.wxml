@@ -1,0 +1,31 @@
+<view class='detail-header'>
+  <view class='list-title'>这是书单的title</view>
+  <view class='list-introduce'>这是书单的详情介绍这是书单的详情介绍</view>
+</view>
+<view class='booklist'>
+
+  <view class='book-item' bindtap='toBookDetail'>
+    <view class='book-image'></view>
+    <view class='book-title'>产品经理入门应该看的书这是书单的详情介绍</view>
+  </view>
+
+  <view class='book-item'>
+    <view class='book-image'></view>
+    <view class='book-title'>产品经理入门应该看的书</view>
+  </view>
+
+  <view class='book-item'>
+    <view class='book-image'></view>
+    <view class='book-title'>产品经理入门应该看的书</view>
+  </view>
+
+  <view class='book-item'>
+    <view class='book-image'></view>
+    <view class='book-title'>产品经理入门应该看的书</view>
+  </view>
+
+  <view class='book-item'>
+    <view class='book-image'></view>
+    <view class='book-title'>产品经理入门应该看的书</view>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+<input class="search" 
+      type="text" 
+      placeholder="输入关键词搜索书籍" 
+      placeholder-class="search-text"
+      bindconfirm = "searchBooks"
+      />
+
+<view class='searh-setting'>
+  <view class='search-num'></view>
+  <view></view>
+</view>
+
+<scroll-view scroll-y class='search-detail'>
+  <view class='search-item' bindtap='toBookDetail'>
+    <view class='book-iamge'></view>
+    <view class='book-content'>
+      <view class='book-title'>囚鸟</view>
+      <view class='book-author title-1'><text>作者：</text>[美] 布伦特·施兰德 / [美] 里克·特策利 /陶亮 [译] </view>
+      <view class='book-author title-1'><text>出版：</text>中信出版集团 （2016-10）</view>
+    </view>
+  </view>
+    <view class='search-item'>
+    <view class='book-iamge'></view>
+    <view class='book-content'>
+      <view class='book-title'>囚鸟</view>
+      <view class='book-author title-1'><text>作者：</text>[美] 布伦特·施兰德 / [美] 里克·特策利 /陶亮 [译] </view>
+      <view class='book-author title-1'><text>出版：</text>中信出版集团 （2016-10）</view>
+    </view>
+  </view>
+    <view class='search-item'>
+    <view class='book-iamge'></view>
+    <view class='book-content'>
+      <view class='book-title'>囚鸟</view>
+      <view class='book-author title-1'><text>作者：</text>[美] 布伦特·施兰德 / [美] 里克·特策利 /陶亮 [译] </view>
+      <view class='book-author title-1'><text>出版：</text>中信出版集团 （2016-10）</view>
+    </view>
+  </view>
+    <view class='search-item'>
+    <view class='book-iamge'></view>
+    <view class='book-content'>
+      <view class='book-title'>囚鸟</view>
+      <view class='book-author title-1'><text>作者：</text>[美] 布伦特·施兰德 / [美] 里克·特策利 /陶亮 [译] </view>
+      <view class='book-author title-1'><text>出版：</text>中信出版集团 （2016-10）</view>
+    </view>
+  </view>
+    <view class='search-item'>
+    <view class='book-iamge'></view>
+    <view class='book-content'>
+      <view class='book-title'>囚鸟</view>
+      <view class='book-author title-1'><text>作者：</text>[美] 布伦特·施兰德 / [美] 里克·特策利 /陶亮 [译] </view>
+      <view class='book-author title-1'><text>出版：</text>中信出版集团 （2016-10）</view>
+    </view>
+  </view>
+</scroll-view>
+

@@ -1,0 +1,41 @@
+<view class='book-item'>
+  <view class='book-iamge'></view>
+  <view class='book-content'>
+    <view class='book-title'>囚鸟</view>
+    <view class='book-author title-1'><text>作者：</text>[美] 布伦特·施兰德 / [美] 里克·特策利 /陶亮 [译] </view>
+    <view class='book-author title-1'><text>出版：</text>中信出版集团 （2016-10）</view>
+  </view>
+</view>
+
+<view class='book-introduce'>
+我们都是受困于时代的“囚鸟”——既渴望逃离，又踟蹰不前。
+联邦最低限度安保措施成人改造所里，颓唐的小老头儿瓦尔特•斯代布克正在等待领他出狱的狱卒。
+</view>
+
+<view class='author-content'>
+  <view class='author-title'>作者介绍</view>
+  <view class='author-introduce'>库尔特•冯内古特（Kurt Vonnegut，1922—2007），美国黑色幽默作家，美国黑色幽默文学的代表人物之一。代表作有《囚鸟》《五号屠宰场》《没有国家的人》。</view>
+</view>
+
+
+<view class='bottom-bar'>
+  <view class='collect'>
+    <view class='bar-item'>
+      <view class='icon'></view>
+      <view class='text'></view>
+    </view>
+  </view>
+  <view class='have-read'>
+    <view class='bar-item'>
+      <view class='icon'></view>
+      <view class='text'></view>
+    </view>
+  </view>
+  <view class='borrow'>
+    <view class='borrow-num'>
+      <view class='num-text'>可借：<text> 1本</text></view>
+      <view class='num-text'>押金： <text>23元</text></view>
+    </view>
+    <view class='add-bag'>加入书包</view>
+  </view>
+</view>

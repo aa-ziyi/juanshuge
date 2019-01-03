@@ -1,0 +1,39 @@
+page {
+  background: #f7f7f7;
+}
+.cell {
+  background: white;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  color: #333;
+  display: flex;
+  flex-wrap: space-between;
+}
+.title {
+  width: 200rpx;
+  font-size: 28rpx;
+  line-height: 88rpx;
+  font-weight: 500;
+}
+.title-input {
+  flex: 1;
+  height: 88rpx;
+  text-align: right;
+  font-size: 28rpx;
+  color: #333;
+}
+.input-none {
+  font-size:28rpx;
+  color: #999;
+  line-height: 88rpx;
+}
+.submit {
+  height: 88rpx;
+  margin: 0 40rpx;
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  line-height: 88rpx;
+  font-weight: 500;
+  color: #fff;
+  background: #2ED0C8;
+}
