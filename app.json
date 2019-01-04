@@ -18,10 +18,20 @@
     "list": [
       {
         "pagePath": "pages/booklist/booklist",
+        "iconPath": "image/book.png",
+        "selectedIconPath": "image/book.png",
         "text": "书单"
       },
       {
+        "pagePath": "pages/share/share",
+        "iconPath": "image/share.png",
+        "selectedIconPath": "image/share.png",
+        "text": "共享"
+      },
+      {
         "pagePath": "pages/me/me",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my.png",
         "text": "我的"
       }
     ],

@@ -1,2 +1,9 @@
 <!--pages/share/share.wxml-->
-<text>pages/share/share.wxml</text>
+<search></search>
+<view class="header">
+	<view class="header-left">
+		<view >累计共享</view>
+		<view>7222本</view>
+	</view>
+	<button>我要共享</button>
+</view>

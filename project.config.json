@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -59,7 +59,19 @@
 				{
 					"id": -1,
 					"name": "书籍性情",
-					"pathName": "pages/bookDetail/bookDetail"
+					"pathName": "pages/bookDetail/bookDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的页面调试",
+					"pathName": "pages/me/me",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "共享页面调试",
+					"pathName": "pages/share/share"
 				}
 			]
 		}

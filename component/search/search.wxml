@@ -1,0 +1,8 @@
+<!--search.wxml-->
+<input class="search" 
+	type="text" 
+	placeholder="输入关键词搜索书籍" 
+	placeholder-class="search-text"
+	bindtap='toSearch'
+	disabled="true"
+/>

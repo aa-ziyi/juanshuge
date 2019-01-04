@@ -44,6 +44,13 @@ Page({
     const title = this.data.title
     const introduce = this.data.introduce
     console.log(title, introduce)
+    if(!title || !introduce) {
+      wx.showToast({
+        title: '书单名称/介绍不能为空',
+        icon: 'none',
+      });
+      return;
+    }
     wx.request({
       url: 'https://www.juanshuge.com/api/Book/addBookList',
       data: {
@@ -52,7 +59,8 @@ Page({
         token: token
       },
       success(res) {
-        console.log(res.data)
+        console.log(res.data);
+        wx.navigateBack();
       }
     })
   },

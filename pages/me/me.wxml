@@ -1,2 +1,40 @@
 <!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<view class="me-item">
+  <image
+		class="me-img"
+		mode="scaleToFill"
+		src="{{img}}"
+	></image>
+	<text class="name">koci</text>
+</view>
+
+<view class="me-item">
+	<view class="borrow-header">
+		<text class="borrow-title">我的借阅</text>
+		<text class="borrow-subtitle">历史借阅</text>
+	</view>
+	<view class="book-content">
+		<view class="book-header">
+			<text class="book-title">借阅时间</text>
+			<text class="book-subtitle">待审核</text>
+		</view>
+		<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+			<view class="book-list">
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name">书名</view></view>
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name">书名</view></view>
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name"> 书名</view></view>
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name">书名</view></view>
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name">书名</view></view>
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name">书名</view></view>
+				<view class="book-item"><image class="book-img" src="{{img}}"></image><view class="book-name">书名</view></view>
+			</view>
+  	</scroll-view>
+	</view>
+</view>
+
+<view class="me-item-item"><view>我的共享</view><image /></view>
+<view class="me-item-item last"><view>我的地址</view></view>
+
+<view class="me-item-item"><view >意见反馈</view></view>
+<view class="me-item-item last"> <view >关于我们</view></view>
+  
